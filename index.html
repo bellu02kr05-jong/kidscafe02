@@ -16,6 +16,15 @@
 
 <body>
 
+    <!-- Floating Background Decorations -->
+    <div class="floating-shapes">
+        <div class="shape cloud c1">☁️</div>
+        <div class="shape cloud c2">☁️</div>
+        <div class="shape star s1">⭐</div>
+        <div class="shape star s2">⭐</div>
+        <div class="shape balloon b1">🎈</div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-content">
@@ -34,11 +43,47 @@
         <div class="hero-bg" style="background-image: url('assets/images/hero.png');"></div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1 class="bounce-in">아이들의 상상력이<br>현실이 되는 곳</h1>
-            <p class="fade-in">프리미엄 감성 놀이 공간, 드리미 키즈 카페에서 특별한 추억을 만들어보세요.</p>
-            <a href="#play-zone" class="btn btn-primary pulse">놀이존 둘러보기</a>
+            <h1 class="bounce-in">아이들의 꿈,<br>부모님의 휴식이 되는 곳</h1>
+            <p class="fade-in">매일 소독하는 청결한 공간, 전문 튜터의 세심한 케어.<br>드리미 키즈 카페에서 온 가족이 행복한 시간을 보내세요.</p>
+            <a href="#reservation" class="btn btn-primary pulse">간편 예약하기</a>
+        </div>
+        <div class="wave-divider bottom">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
         </div>
     </header>
+
+    <!-- Premium Care Section (NEW) -->
+    <section class="section care-section">
+        <div class="container">
+            <div class="care-grid">
+                <div class="care-item">
+                    <div class="care-icon">🛡️</div>
+                    <h3>안심 케어 시스템</h3>
+                    <p>전 구역 안전 튜터 상주</p>
+                </div>
+                <div class="care-item">
+                    <div class="care-icon">✨</div>
+                    <h3>청정 위생 관리</h3>
+                    <p>매일 2회 전체 소독</p>
+                </div>
+                <div class="care-item">
+                    <div class="care-icon">🍃</div>
+                    <h3>친환경 놀이 공간</h3>
+                    <p>안전 검증된 편백/원목 소재</p>
+                </div>
+                <div class="care-item">
+                    <div class="care-icon">🥗</div>
+                    <h3>유기농 키친</h3>
+                    <p>엄선된 식재료로 만든 식사</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Play Zone Section (Bento Grid) -->
     <section id="play-zone" class="section play-zone">
@@ -212,6 +257,68 @@
         </div>
     </section>
 
+
+    <!-- Special Programs Section (NEW) -->
+    <section id="programs" class="section programs-section">
+        <div class="container">
+            <h2 class="section-title">Special Programs</h2>
+            <p class="section-subtitle">꿈과 재능을 발견하는 특별한 클래스</p>
+
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="icon">👩‍🍳</div>
+                    <h3>리틀 쿠킹 클래스</h3>
+                    <p>매주 토요일 14:00</p>
+                    <span class="tag">인기</span>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🎨</div>
+                    <h3>창의 미술 놀이</h3>
+                    <p>매주 일요일 15:00</p>
+                    <span class="tag">추천</span>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🇬🇧</div>
+                    <h3>원어민 영어 놀이</h3>
+                    <p>평일 오후 16:00</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🎵</div>
+                    <h3>뮤직 & 댄스</h3>
+                    <p>주말 오전 11:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section (NEW) -->
+    <section class="section amenities-section">
+        <div class="container">
+            <div class="amenities-container">
+                <div class="amenity-item">
+                    <span class="amenity-icon">☕</span>
+                    <span>프리미엄 카페</span>
+                </div>
+                <div class="amenity-item">
+                    <span class="amenity-icon">🍼</span>
+                    <span>수유실 완비</span>
+                </div>
+                <div class="amenity-item">
+                    <span class="amenity-icon">🅿️</span>
+                    <span>무료 주차</span>
+                </div>
+                <div class="amenity-item">
+                    <span class="amenity-icon">🌡️</span>
+                    <span>공기 청정</span>
+                </div>
+                <div class="amenity-item">
+                    <span class="amenity-icon">📹</span>
+                    <span>CCTV 안전</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Review Section -->
     <section id="reviews" class="section reviews">
         <div class="container">
@@ -254,6 +361,11 @@
             &copy; 2026 Dreamy Kids Cafe. All rights reserved.
         </div>
     </footer>
+
+    <!-- Floating Action Button -->
+    <a href="#" class="fab-btn">
+        <span>📅</span> 예약하기
+    </a>
 
     <!-- Interaction Script -->
     <script src="assets/js/script.js"></script>
